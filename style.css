@@ -1,0 +1,95 @@
+/* ------------------Nav-bar  ---------------------- */
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+a{
+color: #5a5a5a;
+}
+img{
+    cursor: pointer;
+}
+.flex-div{
+    display: flex;
+
+    justify-content: space-between;
+}
+nav{
+
+    padding: 10px   2%;
+justify-content: center;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) ;
+background: #fff;
+position: sticky;
+top: 0px;
+z-index: 1;
+
+}
+.right{
+    display: flex;
+gap: 12px;
+
+}
+.search,#search,#search-icon{
+height: 36px;
+/* border */
+}
+#search-icon{
+background-image: url(./pic/bad\ room.jpg);
+    position: relative;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    right: 50px;
+    top: 6%;
+    border: transparent;
+    border-radius: 100%;
+    background: transparent;
+    cursor: pointer;
+}
+#search{
+    width: 100%;
+    padding: 15px 12px;
+    border-radius: 30px;
+    border: 1px solid   black;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    font-size: 18px;
+    padding-right: 45px;
+}
+.search{
+    margin-left: -23px;
+
+}
+.middle{
+display: flex;
+/* gap: 4; */
+}
+#searc{
+    border: 1px solid   black;
+    height: 36px;
+
+}
+/* -------------------- Side-bar ---------------------- */
+.side-bar{
+    background-color: white;
+    width: 15%;
+    height:100vh;
+    position: fixed;
+    top: 0%;
+    padding-left: 2%;
+    padding-top:80px ;
+}
+
+
+
+
+
+
+
+
+
+
