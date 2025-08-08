@@ -1,55 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stube</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
-<nav  class="flex-div">
 
-    <div class="left">
-        <img src="./pic/bad room.jpg" alt="menu-icon"   width="35"  height="35">
-        <img src="./pic/logi.webp" alt="Logo"width="35"  height="35">
+    <nav class="flex-div">
+
+        <div class="left">
+            <img src="./pic/menu.png" alt="menu-icon" id="menu" width="35" height="35">
+            <div id="Logo">
+                <h1 class="logo">Clip</h1>
+                <h2 id="logo">Tube</h2>
+            </div>
+        </div>
+        <div class="middle">
+            <input type="search" placeholder="search" id="search">
+            <button id="search-icon">search</button>
+            <img src="./pic/Voice-speaker.webp" alt="voice-speaker" width="40" height="40" class="search"
+                style="margin-top:-1px ;">
+        </div>
+        <div class="right">
+            <img src="./pic/u[pload.png" alt="upload" width="35" height="35"    style="border-radius: 2px;">
+            <img src="./pic/showmore.png" alt="more" width="35" height="35"   style="border-radius: 2px;">
+            <img src="./pic/subcribtion.jpg" alt="bal-icon" width="35" height="35">
+            <img src="./pic/shahzaibzaman.png" alt="man-pic" width="35" height="35">
+        </div>
+
+    </nav>
+    <!-- Complete navbar -->
+    <!-- Sidebar    starting -->
+    <div class="side-bar">
+        <div class="short-cut-links">
+            <a href=""><img src="./pic/home.webp">
+                <p>Home</p>
+            </a>
+            <a href=""><img src="./pic/explore.webp">
+                <p>Explore</p>
+            </a>
+            <a href=""><img src="./pic/subcribtion.jpg">
+                <p>Subscription</p>
+            </a>
+            <a href=""><img src="./pic/Library.png">
+                <p>Library</p>
+            </a>
+            <a href=""><img src="./pic/history.jpg">
+                <p>History</p>
+            </a>
+            <a href=""><img src="./pic/aylist.jpg">
+                <p>playlist</p>
+            </a>
+            <a href=""><img src="./pic/mesage.png">
+                <p>message</p>
+            </a>
+            <a href=""><img src="./pic/showmore.png">
+                <p>Show-more</p>
+            </a>
+
+            <hr>
+
+        </div>
+        <div class="subscribe-list">
+            <h3>SUBCRIBED</h3>
+            <a href=""><img src="./pic/shahzaibzaman.png">
+                <p>Jack Nacola </p>
+            </a>
+            <a href=""><img src="./pic/man1.jpg">
+                <p>Jack Nacola </p>
+            </a>
+            <a href=""><img src="./pic/man2.jpg">
+                <p>Jack Nacola </p>
+            </a>
+            <a href=""><img src="./pic/man2.jpg">
+                <p>Jack Nacola </p>
+            </a>
+            <a href=""><img src="./pic/man3.jpg">
+                <p>Jack Nacola </p>
+            </a>
+
+        </div>
     </div>
-    <div class="middle">
-        <input type="search"  placeholder="search" id="search" >
-        <button id="search-icon">search</button>
-        <img src="./pic/instagram.jpg" alt="voice-speaker"width="40"  height="40"  class="search" >
+
+    <!-- -----------Main----------- -->
+    <div class="container">
+        <div class="banner">
+
+            <img src="./pic/Low-code-and-fast-build.png" alt="">
+        </div>
+
+        <!-- video  list    container -->
+
+        <div class="lis-container">
+
+            <div class="vid-list  col-3  ">
+
+
+                <a href=""><img src="./pic/tumbnail2.jpg" class="tumbnail" alt="tumbnail"  height="250px"></a>
+                <div class="flexdiv d-flex">
+
+                    <img src="./pic/shahzaibzaman.png" alt="manicon"  height="45px"   width="50px">
+
+                    <div class="vai-info">
+                        <a href="">Best channel learn coding that help you to be a web developer</a>
+                        <p>shahzaib Developer</p>                    <p>15 Views 2 days</p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="vid-list  col-3  ">
+
+
+                <a href=""><img src="./pic/tumbnail3.jpg" class="tumbnail" alt="tumbnail"  height="250px"></a>
+                <div class="flexdiv d-flex">
+
+                    <img src="./pic/shahzaibzaman.png" alt="manicon"  height="45px"   width="50px">
+
+                    <div class="vai-info">
+                        <a href="">Best channel learn coding that help you to be a web developer</a>
+                        <p>shahzaib Developer</p>                    <p>15 Views 2 days</p>
+
+                    </div>
+
+
+                </div>
+
+            </div> <div class="vid-list  col-3  ">
+
+
+                <a href=""><img src="./pic/tumbnail4.webp" class="tumbnail" alt="tumbnail"  height="250px"></a>
+                <div class="flexdiv d-flex">
+
+                    <img src="./pic/shahzaibzaman.png" alt="manicon"  height="45px"   width="50px">
+
+                    <div class="vai-info">
+                        <a href="">Best channel learn coding that help you to be a web developer</a>
+                        <p>shahzaib Developer</p>                    <p>15 Views 2 days</p>
+
+                    </div>
+
+
+                </div>
+
+            </div> <div class="vid-list  col-3  ">
+
+
+                <a href=""><img src="./pic/tumbnail4.webp" class="tumbnail" alt="tumbnail"  height="250px"></a>
+                <div class="flexdiv d-flex">
+
+                    <img src="./pic/shahzaibzaman.png" alt="manicon"  height="45px"   width="50px">
+
+                    <div class="vai-info">
+                        <a href="">Best channel learn coding that help you to be a web developer</a>
+                        <p>shahzaib Developer</p>                    <p>15 Views 2 days</p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
     </div>
-    <div class="right">
-        <img src="./pic/b10d48100331039.Y3JvcCwxNzUwLDEzNjgsMCwxOTA.png" alt="upload"width="35"  height="35">
-        <img src="./pic/black.jpg" alt="more"width="35"  height="35">
-        <img src="./pic/Thank you.JPG" alt="bal-icon"width="35"  height="35">
-        <img src="./pic/manico1.png" alt="man-pic"width="35"  height="35">
+
     </div>
 
-</nav>
-<!-- Complete navbar -->
-<!-- Sidebar    starting -->
-<div class="side-bar">
-<div class="short-cut-links">
-    <a href=""><img src="./pic/compressed_67918fdd121cf43cb304001d63dbd213.webp"    width="50" height="55" alt=""><p>Home</p></a>
-    <a href=""><img src="./pic/compressed_67918fdd121cf43cb304001d63dbd213.webp"    width="50" height="55" alt=""><p>Explore</p></a>
-    <a href=""><img src="./pic/compressed_67918fdd121cf43cb304001d63dbd213.webp"    width="50" height="55" alt=""><p>Subscription</p></a>
-    <a href=""><img src="./pic/compressed_67918fdd121cf43cb304001d63dbd213.webp"    width="50" height="55" alt=""><p>Library</p></a>
-    <a href=""><img src="./pic/compressed_67918fdd121cf43cb304001d63dbd213.webp"    width="50" height="55" alt=""><p>History</p></a>
-    <a href=""><img src="./pic/compressed_67918fdd121cf43cb304001d63dbd213.webp"    width="50" height="55" alt=""><p>playlist</p></a>
-    <a href=""><img src="./pic/compressed_67918fdd121cf43cb304001d63dbd213.webp"    width="50" height="55" alt=""><p>message</p></a>
-</div>
-</div>
 
 
 
 
 
-
-
-
-
-<script src="./app.js"></script>
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
 </body>
-</html>
 
+</html>

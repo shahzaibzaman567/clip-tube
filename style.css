@@ -10,10 +10,36 @@ color: #5a5a5a;
 }
 img{
     cursor: pointer;
+    border-radius: 100%;
+margin-top: 4px;
+
+}
+.logo{
+color: green;
+font-size: 37px;
+
+}
+#logo{
+    color: black;
+    font-size: 37px;
+}
+#menu{
+    margin-top: -1px;
+
+}
+/* Logo headdiv */
+#Logo{
+    display: flex;
+    margin-top: -6px;
+    margin-left: 6px;
+}
+.left{
+display: flex;
+gap: 3px;
+
 }
 .flex-div{
     display: flex;
-
     justify-content: space-between;
 }
 nav{
@@ -82,14 +108,105 @@ display: flex;
     top: 0%;
     padding-left: 2%;
     padding-top:80px ;
+    overflow-y: auto;
+}
+
+.short-cut-links a img{
+
+    width: 20px;
+    height: 20px;
+margin-right: 20px;
+margin-top: -16px;
 }
 
 
+.short-cut-links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
 
+}
 
+.short-cut-links a:first-child{
+color: rgb(0, 152, 23);
+}
 
+.side-bar hr{
+color: #ccc
+}
 
+/* Subscribed   list */
 
+.subscribe-list h3{
+    font-size: 13px;
+    margin: 20px   0px ;
+    color:#5a5a5a ;
 
+}
 
+.subscribe-list a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+    
+    }
+    .subscribe-list a   img{
+width: 25px;
+border-radius: 60%;        
+margin-right: 20px;
+        }
+/* Small    sidebar    from js  file    using  */
 
+.small-sidebar{
+    width: 5%;
+}
+.small-sidebar hr{
+    width: 50%;
+    margin-bottom: 25px;
+}
+.small-sidebar a p{
+display: none;
+}
+.small-sidebar h3{
+display: none;
+}
+/* ------------Main-----Banner-------- */
+.container{
+
+    background-color:#f9f9f9 ;
+    padding:20px 2% 20px 17%;
+
+}
+.banner{
+width: 100%;
+}
+.banner img{
+    width: 100%;
+    border-radius: 8px;
+    height: 238px;
+    margin-bottom: 25px;
+    
+}
+/* video    list    container */
+.lis-container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 92px;
+    
+    
+}
+.vid-list{
+    align-items: flex-start;
+margin-top: 7px;
+
+}
+.vid-list .tumbnail{
+width: 130%;
+border-radius: 5%;
+}
