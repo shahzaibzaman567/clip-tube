@@ -316,5 +316,6 @@ margin-bottom: 8%;
     } */
     .small-thumbnail{
         width: 40px;
+        border-radius: 2px;
 
     }
