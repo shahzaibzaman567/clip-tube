@@ -92,6 +92,7 @@ background-image: url(./pic/bad\ room.jpg);
 }
 .middle{
 display: flex;
+width:39%;
 /* gap: 4; */
 }
 #searc{
@@ -116,7 +117,7 @@ display: flex;
     width: 20px;
     height: 20px;
 margin-right: 20px;
-margin-top: -16px;
+margin-top: 4px;
 }
 
 
@@ -158,11 +159,12 @@ color: #ccc
 width: 25px;
 border-radius: 60%;        
 margin-right: 20px;
+height: 27px;
         }
 /* Small    sidebar    from js  file    using  */
 
 .small-sidebar{
-    width: 5%;
+    width: 6%;
 }
 .small-sidebar hr{
     width: 50%;
@@ -181,23 +183,28 @@ display: none;
     padding:20px 2% 20px 17%;
 
 }
+.large-container{
+padding-left: 7%;
+}
 .banner{
 width: 100%;
 }
 .banner img{
-    width: 100%;
+    width: 99%;
     border-radius: 8px;
     height: 238px;
     margin-bottom: 25px;
     
 }
 /* video    list    container */
+.vid-list a img{
+width: 30px;
+}
 .lis-container{
 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 92px;
     
     
 }
@@ -206,7 +213,108 @@ width: 100%;
 margin-top: 7px;
 
 }
-.vid-list .tumbnail{
-width: 130%;
-border-radius: 5%;
+ .vid-list{
+    width: 25%;
+
 }
+.vid-list .tumbnail{
+    width: 96%;
+    border-radius: 5px;
+}
+.vai-info  {
+    color: #5a5a5a;
+    font-size: 13px;
+}
+.vai-info a{
+    color: #000;
+    font-weight:600;
+    display: block;
+    margin-bottom: 7px;
+}  
+/* responsive   for small   screen   using media    querry */
+@media(max-width:900px){
+#menu{
+display: none;
+}
+.side-bar{
+    display: none;
+}
+.container, .large-container{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.right  img{
+    display: none;
+
+}
+.logo,#logo{
+font-size: 27px;
+margin-top:10px ;
+}
+.right .user-icon{
+    display: block;
+    width: 30px;
+
+}
+.middle #search{
+    width: 150%;
+padding: 0px 2px 0px 1px;
+margin-left: 3px;
+}
+.speaker{
+display: none;
+}
+
+.vid-list{
+    width: 33%
+
+}
+.banner img{
+
+    height: 96px;
+    width: 96%;
+}
+}
+@media(max-width:568px){
+.vid-list{
+width: 50%;
+}
+}
+@media(max-width:414px){
+    .vid-list{
+    width: 100%;
+    }
+    }
+    /* page 2 css work */
+    .play-video{
+        padding-left: 17px;
+
+    }
+    .row{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+    }
+    .play-video{
+
+        flex-basis: 69%;
+    }
+    .right-sidebar{
+  flex-basis: 69%;      
+    }
+    .play-video video{
+        width: 100%;
+    }
+    /* .side-video-list{
+        display: flex;
+        justify-content: space-between;
+margin-bottom: 8%;
+    } */
+   /* .side-video-list img{
+    width: 100%;
+
+    } */
+    .small-thumbnail{
+        width: 40px;
+
+    }
